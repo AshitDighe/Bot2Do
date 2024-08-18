@@ -1,0 +1,46 @@
+.app {
+  display: flex;
+}
+
+.main-content {
+  margin-left: 250px; 
+  transition: margin-left 0.3s;
+  flex: 1;
+}
+
+.sidebar-container.collapsed ~ .main-content {
+  margin-left: 80px; 
+}
+
+@media (max-width: 767px) {
+  .main-content {
+    margin-left: 0;
+  }
+}
+
+.mobile-message {
+  display: none;
+  text-align: center;
+  font-size: 1.2em;
+  padding: 20px;
+  color: #ff0000; 
+}
+
+@media (max-width: 767px) {
+  .mobile-message {
+    display: block;
+  }
+
+  .app {
+    display: block;
+  }
+
+  .main-content {
+    margin-left: 0;
+  }
+}
+
+.blur {
+  filter: blur(5px);
+  transition: filter 0.3s ease;
+}

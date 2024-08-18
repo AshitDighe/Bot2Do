@@ -1,0 +1,106 @@
+.container {
+  padding: 11px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.card {
+  background-color: #161A27;
+  color: white;
+  border-radius: 8px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin: 10px;
+  width: 200px;
+  height: auto;
+  box-shadow: 0 4px 8px rgba(3, 3, 3, 0.2);
+  padding: 10px;
+}
+
+/* Adjust icon positioning */
+.card-icon i, .card-icon1 i {
+  font-size: 12px;
+  position: absolute;
+  bottom: 90px;
+}
+
+.card-icon {
+  right: 72px;
+  margin: 0px 19px 0px 70px;
+}
+
+.card-icon1 {
+  right: 72px;
+  margin: 0px 100px 0px 1px;
+}
+
+.right-circle {
+  font-size: 18px;
+  position: absolute;
+  right: 15px;
+  bottom: 10px; 
+}
+
+.card h3 {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.icon1-header{
+  right:87px;
+}
+.card h1 {
+  margin: 0px 115px 0px 0px;
+  padding: 0;
+  position: absolute;
+  bottom: 40px;
+}
+
+.card p {
+  font-family: Manrope;
+  font-size: 14px; 
+  font-weight: normal; 
+  line-height: 1.5; 
+  text-align: left;
+  width: 100%; 
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; 
+  margin: 0; 
+  color: green;
+}
+
+.icon1-header {
+  position: absolute;
+  bottom: 4px;
+  margin: 0;
+  padding: 0;
+}
+
+.progress-container {
+  width: 70%;
+  margin: 80px 60px 0px 2px;
+}
+
+.progress-bar {
+  background-color: #007bff; 
+  border-radius: 20px;
+  height: 12px; 
+}
+
+.progress {
+  background-color: #343a40; 
+  border-radius: 20px;
+  height: 12px; 
+}

@@ -1,0 +1,65 @@
+.nav {
+    height: 60px;
+    background-color: #11141F;
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center;
+    padding: 0 20px; 
+    color: white;
+    border-bottom: 1px solid #333333
+  }
+  
+  .nav h2 {
+    cursor: pointer;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    padding: 8px;
+  }
+  
+  .nav i.bi {
+    font-size: 23px;
+    color: white;
+  }
+  
+  .nav ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin: 0; 
+  }
+  
+  .nav ul li {
+    cursor: pointer;
+  }
+   .nav h3{
+    display: flex;
+    gap: 20px; 
+    flex: 1;
+    margin-bottom: 10px; 
+   }
+  /* Button */
+  .name-button {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    outline: solid 1px white;
+    padding: 5px 15px; 
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-right: 20px;
+  }
+  
+  .name-button:hover, .nav ul li:hover {
+    background-color: rgb(125, 42, 197);
+    color: black;
+  }
+  
