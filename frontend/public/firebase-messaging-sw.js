@@ -4,7 +4,7 @@ importScripts("https://www.gstatic.com/firebasejs/9.22.2/firebase-messaging-comp
 
 // Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyCGnzZH10AWeSaaCEIX7K-gMWXrHFskUlA",
+  apiKey: " ",
   authDomain: "bo2do-fac72.firebaseapp.com",
   projectId: "bo2do-fac72",
   storageBucket: "bo2do-fac72.appspot.com",
